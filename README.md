@@ -5,6 +5,7 @@ A real-time dashboard to detect and visualize suspicious access activity from AW
 
 ---
 
+
 ## 🚀 Features
 
 - ✅ Pulls CloudTrail logs from an S3 bucket
@@ -70,10 +71,7 @@ cloud-access-monitoring-dashboard/
 ---
 
 ## 📸 Screenshots
-
-| Dashboard View | Anomaly Detection | Email Alert |
-|----------------|-------------------|-------------|
-| ![Dashboard](screenshots/dashboard_view.png) | ![Anomaly](screenshots/login_anomaly_plot.png) | ![Email](screenshots/email_alert.png) |
+![Dashboard](screenshots/dashboard_view.png)
 
 ---
 

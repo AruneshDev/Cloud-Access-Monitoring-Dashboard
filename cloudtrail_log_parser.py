@@ -6,10 +6,9 @@ from datetime import datetime
 
 # AWS setup
 s3 = boto3.client('s3')
-# bucket_name = 'your-cloudtrail-log-bucket-name'
-# prefix = 'AWSLogs/'  # this is default structure
 bucket_name = 'aws-cloudtrail-logs-342364987304-684f807b'
-prefix = 'AWSLogs/342364987304/CloudTrail/'  # Default CloudTrail path
+prefix = 'AWSLogs/342364987304/CloudTrail/us-east-1/'
+# Default CloudTrail path
 
 def list_cloudtrail_files(bucket, prefix):
     objects = s3.list_objects_v2(Bucket=bucket, Prefix=prefix)
